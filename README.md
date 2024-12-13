@@ -1,2 +1,2 @@
 # CatInfo
-Projeto criado durante o curso de Informatica no IFRN.
+Projeto criado com intuito de informar fofura! &lt;3 S2  ()

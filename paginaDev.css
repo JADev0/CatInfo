@@ -1,0 +1,131 @@
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #1c1c1c;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+
+.cabecalho {
+   text-align: center;
+   padding: 20px;
+   background-color: #000;
+}
+
+.cabecalho h1 {
+   font-size: 2.5rem;
+   color: #ff7300;
+}
+
+.cabecalho h2 {
+   font-size: 1.5rem;
+   color: #fff;
+}
+
+.cabecalho nav {
+   margin-top: 10px;
+}
+
+.cabecalho nav a {
+   color: #ff7300;
+   text-decoration: none;
+   margin: 0 15px;
+   font-size: 1rem;
+}
+
+.cabecalho nav a:hover {
+   text-decoration: underline;
+}
+
+
+main {
+   padding: 40px;
+   flex: 1; 
+   text-align: center;
+}
+
+
+main table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+   background-color: #333;
+}
+
+main table th, 
+main table td {
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #555;
+   color: #fff;
+}
+
+main table th {
+   background-color: #ff7300;
+}
+
+main table tr:nth-child(even) {
+   background-color: #2a2a2a;
+}
+
+
+.dev {
+   text-align: center;
+   margin: 20px;
+   padding: 20px;
+   background-color: #333;
+   border-radius: 10px;
+   max-width: 300px;
+   display: inline-block;
+   vertical-align: top;
+   color: #fff;
+}
+
+.dev img {
+   width: 200px; 
+   height: 200px; 
+   object-fit: cover;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.dev h3 {
+   color: #ff7300;
+   margin: 10px 0;
+}
+
+.dev p {
+   font-size: 0.9rem;
+   margin: 5px 0;
+   color: #ccc;
+}
+
+
+.dev-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #000;
+   color: #ff7300;
+   margin-top: auto; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+footer span {
+   margin: 5px 10px;
+   font-size: 0.9rem;
+}

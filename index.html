@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatInfo - Página de Formulário</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=visibility" />
+    <link rel="stylesheet" href="index.css">
+    <script src="eventos.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>CatInfo</h1>
+        <h2>Seja Bem-vindo</h2>
+        <nav>
+            <a href="index.html">Formulário</a>
+            <a href="server.php">Dados Cadastrados</a>
+            <a href="paginaDev.html">Desenvolvedores</a>
+           
+        </nav>
+    </header>
+    <main>
+    <form action="server.php" method="post">
+
+        <h4 class="formulario-titulo">Dados do gatinho</h4>
+        <div class="grupo">
+            <label for="nomeG">Nome</label>
+            <input type="text" id="nomeG" class="controle" name="nomeG">
+        </div>
+
+        <div class="grupo">
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" class="controle" name="data">
+        </div>
+
+        <div class="grupo">
+            <label for="corG">Cor do gato</label>
+            <input type="color" id="corG" class="controle" name="corG">
+        </div>
+
+
+        <div class="grupo">
+            <label for="heterocromia">Heterocromia</label>
+            <div class="grupo-checkbox">
+            <input type="checkbox" id="heterocromia" class="controle" name="heterocromia">
+        </div>
+        </div>
+
+
+        <div class="grupo">
+            <label for="raca">Raça</label>
+            <input type="text" id="raca" class="controle" name="raca">
+        </div>
+
+
+        <div class="grupo">
+            <label for="peso">Peso</label>
+            <input type="number" id="peso" class="controle" name="peso">
+        </div>
+
+
+        <div class="grupo">
+            <label for="sexo">Sexo</label>
+            <div class="grupo-radio">
+            <input type="radio" id="sexo1" class="controle" name="sexo" value="Macho">Macho
+            <input type="radio" id="sexo2" class="controle" name="sexo" value="Fêmea">Fêmea
+        </div>
+        </div>
+
+        <h4 class="formulario-titulo">Dados do dono</h4>
+
+        <div class="grupo">
+            <label for="nomeD">Nome</label>
+            <input type="text" id="nomeD" class="controle" name="nomeD">
+        </div>
+
+        <div class="grupo">
+            <label>Numero de telefone</label>
+            <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="grupo">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="controle" name="email">
+        </div>
+
+        <div class="grupo">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="controle" name="senha">
+            <span class="material-symbols-outlined" id="mostrar_senha">
+                visibility
+                </span>
+                
+        </div>
+
+
+       
+
+<div class = "botoes">
+
+      <input type="submit" value="Enviar" class="btn">
+      <input type="reset" value="Preencher novamente" class="btn">
+
+</div>
+
+
+    </form>
+</main>
+
+<footer class="rodape">
+    <span>IFRN Campus Santa Cruz</span>
+    <span>Trabalho de Autoria Web</span>
+    <span>Prof. Marcelo Figueiredo Barbosa Júnior</span>
+    <span>Alunos:</span>
+    <span>Isabelle Letícia da Silva Matias</span>
+    <span>João Victor da Silva Alves</span>
+    <span>Maria Tamires de Pontes Onofre</span>
+
+</footer>
+
+
+</body>
+
+</html>
